@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/common/common",
+    "pages/myCart/myCart",
+    "pages/person/person",
+    "pages/class/myFruits/myFruits",
+    "pages/class/myMeat/myMeat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#11bcff",
+    "navigationBarTitleText": "小毛驴鲜生",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color":"#dddddd",
+    "selectedColor": "#11bcff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/icons/hemalogo.png",
+        "selectedIconPath": "/assets/icons/hemalogo-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "分类",
+        "iconPath": "/assets/icons/class.png",
+        "selectedIconPath": "/assets/icons/class-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "购物车",
+        "iconPath": "/assets/icons/cart.png",
+        "selectedIconPath": "/assets/icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人中心",
+        "iconPath": "/assets/icons/myicon.png",
+        "selectedIconPath": "/assets/icons/myicon-active.png"
+      }
+    ],
+    "position": "bottom",
+    "borderStyle": "black"
+  }
+}
