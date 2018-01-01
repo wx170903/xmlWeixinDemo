@@ -5,11 +5,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color: #eee;
+  /* background-color: #eee; */
 }
 .myswiper{
   width: 100%;
-  height: 290rpx;
   background-size: cover;
-  background-color: #ccc;
+  /* background-color: #ccc; */
+}
+.components{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+}
+.components .functions{
+  width: 150rpx;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+}
+.components .functions image{
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+}
+.components .functions text{
+  text-align: center;
+  display: inline-block;
 }

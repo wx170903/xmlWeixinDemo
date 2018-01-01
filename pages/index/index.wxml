@@ -12,5 +12,14 @@
     </swiper>
   </view>
   <!--分类导航  -->
-  
+  <view class='components'>
+        <block wx:for="{{components}}" wx:key="index">
+            <view class="functions" bindtap="changeTo" data-where="{{item.where}}">
+                <view class="functionImage">
+                    <image src="{{item.image}}" />
+                </view>
+                <text>{{item.function}}</text>
+            </view>
+        </block>
+  </view>
 </view>
